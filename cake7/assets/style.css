@@ -14,6 +14,21 @@
     font-family: "Josefin Sans", sans-serif;
 }
 
+#logoFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    color: #E40982;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 480;
+    font-size: 18px;
+    margin: 40px 50px;
+}
+
 #menu{
     list-style-type: none;
     display: flex;
@@ -24,7 +39,8 @@
 }
 
 li {
-        padding-right: 10px;
+    padding-right: 10px;
+    font-size: 14px;
 }
 
 #titulo_principal{
@@ -80,6 +96,8 @@ li {
     padding-left: 50px;
     font-size: 16px;
     font-family: "Josefin Sans", sans-serif;
+    font-weight: 550;
+    letter-spacing: 0.1em;
 }
 
 #sobre_nos{
@@ -91,6 +109,8 @@ li {
     font-size: 25px;
     padding-top: 100px;
     font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
 }
 
 #about_us2{
@@ -136,6 +156,8 @@ li {
     font-size: 16px;
     font-family: "Josefin Sans", sans-serif;
     padding: 100px 50px 35px 50px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
 }
 
 .cakesText{
@@ -164,7 +186,8 @@ li {
 }
 
 #sectionFeedbacks{
-    background-image: url(fundo.jpeg);
+    background-image: url(cake-pattern.png);
+    background-color: #FFE5EC;
     display: flex;
     margin-top: 70px;
     flex-direction: column;
@@ -178,7 +201,9 @@ li {
     color: #E40982;
     font-size: 16px;
     font-family: "Josefin Sans", sans-serif;
-    padding: 100px 50px 10px;
+    padding: 70px 50px 10px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
 }
 
 .feedback{
@@ -186,9 +211,14 @@ li {
     border-radius: 8px;
     margin: 50px;
     width: 450px;
-    height: 375px;
-    padding: 70px 80px 20px 50px;
+    height: 400px;
+    padding: 30px 80px 20px 50px;
     background-color: white;
+}
+
+.star{
+    color: #E40982;
+    font-size: 27px;
 }
 
 .feedbackText{
@@ -197,6 +227,33 @@ li {
     font-size: 18px;
     word-wrap: break-word;
     overflow-wrap: break-word;
+}
+
+#blogg1{
+    display: flex;
+    margin-top: 90px;
+}
+
+#blog{
+    flex-direction: column;
+    display: flex;
+}
+
+#blog2{
+    padding-left: 50px;
+    color: gray;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#allPosts{
+    text-decoration: none;
+    color: #E40982;
+    font-size: 17px;
+    font-weight: 570;
+    font-family: "Lato", sans-serif;
+    padding-left: 50px;
 }
 
 #bigDivCakes{
@@ -223,4 +280,79 @@ li {
     color: grey;
     font-size: 12px;
     font-family: "Lato", sans-serif;
+}
+
+hr{
+    background-color: #E40982;
+    height: 1px;
+    border: #E40982;
+    margin: 70px 0px 70px;
+}
+
+#footer1{
+    background-color: #fef3ed;
+    height: 385px;
+    margin-top: 50px;
+    display: flex;
+}
+
+#cakeP{
+    margin: 90px 50px;
+    width: 640px;
+}
+
+#footerCake{
+    color: #7c6e67;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+#footerP{
+    color: #7c6e67;
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    font-weight: 470;
+    padding-top: 20px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 10px 0px 70px;
+    width: 200px;
+    line-height: 1.5;
+}
+
+#localizacao{
+    color: #7c6e67;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    word-wrap: break-word;
+    width: 150px;
+}
+
+.linksFooter{
+    text-decoration: none;
+    color: #E40982;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
+
+#footer2{
+    background-image: url(footer\ \(1\).jpg);
+    /*width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;*/
+}
+
+#by{
+    display: inline;
+    background-color: #E40982;
+    color: white;
+    padding: 15px;
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
 }
